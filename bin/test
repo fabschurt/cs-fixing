@@ -1,6 +1,6 @@
 #!/bin/bash
 set -Eeu -o pipefail
 
-cp php/tests/{Dirty,Fixed}.php
-vendor/bin/php-cs-fixer fix -q php/tests/Fixed.php
-[[ "$(cat php/tests/Fixed.php)" = "$(cat php/tests/Expected.php)" ]] || exit 1
+cp src/php/tests/{Dirty,Fixed}.php
+vendor/bin/php-cs-fixer fix -q src/php/tests/Fixed.php
+[[ "$(cat src/php/tests/Fixed.php)" = "$(cat src/php/tests/Expected.php)" ]] || exit 1

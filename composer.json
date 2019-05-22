@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "fabschurt\\CodingStandards\\": "php/"
+      "fabschurt\\CodingStandards\\": "src/php/"
     }
   },
   "require": {

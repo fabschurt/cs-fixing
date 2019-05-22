@@ -1,4 +1,4 @@
 /vendor/
 /composer.lock
-/php/tests/Fixed.php
+/src/php/tests/Fixed.php
 *.cache
