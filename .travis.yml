@@ -6,6 +6,8 @@ php:
   - '7.1'
   - '7.2'
 
-install: composer install
+install:
+  - composer global require hirak/prestissimo
+  - composer install
 
 script: bin/test
